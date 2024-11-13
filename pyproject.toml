@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Pavel Krusek <pavel@krusek.dk>"]
 readme = "README.md"
-packages = [{ include = "market_calendar_streamlit_app", from = "app" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
