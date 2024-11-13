@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "market-calendar-streamlit-app"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Krusek <pavel@krusek.dk>"]
+readme = "README.md"
+packages = [{ include = "market_calendar_streamlit_app", from = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.40.1"
+market-calendar-tool = "^0.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
